@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Main_Template
 {
-    public partial class Form1 : Form
+    public partial class EmguCv : MetroFramework.Forms.MetroForm
     {
-        public Form1()
+        public EmguCv()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
